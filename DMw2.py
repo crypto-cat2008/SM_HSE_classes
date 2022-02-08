@@ -1,4 +1,4 @@
-C = dict() # C[n,k] is equal to n choose k
+C = dict()    # C[n,k] is equal to n choose k
 
 for n in range(8):
     C[n, 0] = 1

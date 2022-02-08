@@ -1,5 +1,7 @@
 from itertools import permutations
+
 count = 0
+
 for c in permutations("0123456789", 10):
   # print("".join(c))
   a = "".join(c)
